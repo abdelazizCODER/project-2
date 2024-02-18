@@ -1,0 +1,320 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+nav{ 
+    top: 0;
+    position: sticky;
+    padding: 15px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-L ul{ 
+    display: flex;
+    list-style:none ;
+    gap: 40px;
+    margin-left: 30px;
+}
+.nav-L ul .active{
+    background-color: white;   
+}
+.nav-L ul a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.7s;
+}
+.nav-L ul a:hover{
+    background-color: #fff;
+}
+.nav-R{
+    display: flex;
+    gap: 22px; 
+} 
+.nav-R i{
+    cursor: pointer;
+    font-size: 20px;
+margin-right: 10px;
+}
+.header-L > *{
+    margin-bottom: 20px;
+}
+header{
+display: flex;
+    background-color:#f89cab;
+    align-items: center;
+}
+.header-R{
+    margin-left: 500px;
+}
+.header-L{
+    width: 50%;
+    padding-left: 100px;
+    color: white;
+
+}
+.header-L h2{
+    font-size: 35px;
+    color: white;
+}
+.header-L p{
+    line-height: 1.6;
+font-size: 18px;
+color: white;
+
+}
+button{
+    padding: 10px;
+    background-color:#f89cab;
+border: none;
+border: solid 1px #db4566 ;
+padding-left: 30px;
+padding-right: 30px;
+font-size: 20px;
+transition: 0.7s;
+border-radius: 10px;
+}
+button:hover{
+    background-color: #db4566;
+    cursor: pointer;
+}
+.products h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.products h2 span{
+    color: #db4566;
+}
+.products-felx{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 10px;
+}
+.product{
+width: 22%;
+padding: 10px;
+
+    background-color:#eee ;
+}
+.product img{
+    width: 100%;
+    height: 200px;
+    object-fit:contain ;
+}
+.product div{
+    display: flex;
+    justify-content: space-between;
+}
+.product div span{
+color: #db4566;
+}
+.product h3{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.banner{
+    margin-top: 100px;
+    display: flex;
+    background-color: #db4566;
+    padding: 20px;
+    align-items: center;
+}
+.banner h2 { 
+    font-size: 40px; 
+    margin-bottom: 20px;
+}
+.banner p{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.banner-R .banner-button2{
+    background-color: #fff;
+    transition: 0.5s;
+    
+}
+.banner-R .banner-button2:hover{
+    background-color: #f89cab;
+}
+.banner-R .banner-button1:hover{
+    background-color: #fff;
+}
+
+.why-us .h{
+    font-size: 40px;
+    color: #db4566;
+margin-top: 100px;
+margin-bottom: 100px;
+text-align: center;
+}
+.sirvices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.sirvice >*{
+    margin-bottom: 20px;
+}
+.sirvice{
+    background-color: #eee;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+}
+.sirvice i{
+    font-size: 40px;
+    justify-content: center;
+    color: black;
+
+}
+.sirvice h3{
+    color: #db4566;
+    font-size: 30px;
+}
+.Testmonails-felx{
+    display: flex;
+    gap: 30px;
+justify-content: center;
+}
+.Testmonail > *{
+    margin-bottom: 20px;
+}
+.Testmonail{
+    margin-top: 50px;
+    width: 35%;
+    background-color: #eee;
+    text-align: center;
+padding: 15px;
+}
+.Testmonail img{
+    
+    justify-content: center;
+    width:40px;
+}
+.star{
+    color: gold;
+    font-size: 25px;
+}
+.Testmonail h3{
+    color: #db4566;
+}
+.Contact-us h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.Contact-flex{
+    display: flex;
+    margin-left: 20px;
+
+}
+.contact-L{
+padding-right: 20px;
+}
+.contact-R input{
+    width: 80%;
+    padding: 20px;
+margin-bottom: 10px;
+border-radius: 10px;
+outline: none;
+}
+footer{
+    margin-top: 60px;
+    background-color: #232b37;
+    padding: 20px;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+}
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-footer img{
+    width: 150px;
+}
+.top-footer div{
+    color: #fff;
+}
+.top-footer div h3{
+    color: gray;
+}
+.Subscribe{
+    display: flex;
+}
+footer .Subscribe input{
+ outline: none;
+ padding: 10px;
+ padding-top: 13px;
+ margin-left: 10px;
+}
+footer .Subscribe button{
+    background-color: blue;
+    border: white;
+    border-radius: 0;
+    margin-right: 5px;
+width: fit-content;    
+padding: 2px;
+color: white;
+}
+hr{
+    margin: 10px;
+    opacity: 0.5;
+}
+.mid-footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center; 
+    gap: 20px;
+}
+.mid-footer div{
+    width: 30%;
+}
+.mid-footer div h2{
+    margin-bottom: 20px;
+}
+
+
+.mid-footer div ul{
+    list-style: none;
+}
+
+.mid-footer div{
+    color: #eee;
+}
+.mid-footer div ul li{
+    margin-bottom: 10px;
+}
+.mid-footer div ul li a:hover{
+    color: blue;
+}
+.mid-footer div ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.bottom-footer{
+ display: flex;
+ justify-content: space-between;
+}
